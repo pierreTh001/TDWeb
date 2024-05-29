@@ -1,0 +1,35 @@
+.mainBloc{
+    display: flex;
+}
+
+.mainBlocLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2em;
+
+    & .txt1{
+        color: gray;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 2em;
+    }
+
+    & .txt2 {
+        font-size: 4em;
+        line-height: 1.3em;
+        margin-bottom: 0.5em;
+    }
+
+    & .txt3{
+        font-weight: 100;
+        color: gray;
+        margin-bottom: 4em;    
+    }
+
+    & .btnBloc{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

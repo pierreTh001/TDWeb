@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'UbuntuSansMono';
+  src: url('/public/Ubuntu_Sans_Mono/UbuntuSansMono-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Archivo';
+  src: url('/public/font/Archivo-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
