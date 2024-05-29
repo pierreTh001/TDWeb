@@ -14,7 +14,7 @@ function Header() {
           <span className="companyName">TD Web</span>
           <div className="separatorHeader"></div>
         </div>
-        <div>
+        <div className="liens">
           <Link to="/">Notre histoire</Link>
           <Link to="/">Notre expertise</Link>
           <Link to="/">Carrière</Link>

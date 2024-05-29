@@ -1,0 +1,30 @@
+/* ScrollArrow.css */
+.scroll-arrow {
+    transform: translateX(-50%);
+    animation: bounce 2s infinite;
+    display: flex;
+    justify-content: center;
+
+    & span{
+        font-size: 2em;
+        font-weight: 600;
+        color: #37856f;
+    }
+
+    & span:hover{
+        cursor: pointer;
+    }
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+  

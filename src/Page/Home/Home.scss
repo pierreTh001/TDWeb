@@ -1,5 +1,11 @@
+.mainBlocParent{
+    height: 100vh;
+}
+
 .mainBloc{
     display: flex;
+    height: 85vh;
+    align-items: center;
 }
 
 .mainBlocLeft{
@@ -7,7 +13,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 2em;
+    padding-left: 6em;
 
     & .txt1{
         color: gray;
@@ -31,5 +37,17 @@
     & .btnBloc{
         display: flex;
         justify-content: space-evenly;
+    }
+}
+
+.arrow{
+    width: 100vw;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+
+    & span{
+        font-size: 2em;
+        font-weight: bold;
     }
 }

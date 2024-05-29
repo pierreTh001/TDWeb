@@ -1,0 +1,21 @@
+.descriptionBloc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & .descriptionIcon{
+        padding: 1em;
+        background-color: green;
+        border-radius: 1em;
+        color: white;
+
+        & span {
+            font-size: 2em;
+            font-weight: bold;
+        }
+    }
+
+    & .descriptionText {
+        margin-top: 1em;
+    }
+}
